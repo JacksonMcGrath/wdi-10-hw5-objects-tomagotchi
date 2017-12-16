@@ -64,3 +64,16 @@ let stringCollector = {
 }
 
 stringCollector.collect("Hello I hope all is well")
+
+
+let atm = {
+	totalCash: 140,
+	dispenseTwenties: function(num) {
+		this.totalCash = this.totalCash - (20 * num)
+		if (this.totalCash >= 0) {
+			console.log(20 * num);
+		} else if (this.totalCash < 0) {
+			return null;
+		}
+	}
+}
