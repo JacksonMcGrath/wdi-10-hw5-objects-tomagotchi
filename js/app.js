@@ -34,3 +34,21 @@ myInformation.anotherYear();
 myInformation.newName("Rumpelstiltskin");
 
 console.log(myInformation);
+
+let greeter = {
+	hello: function (name) {
+		console.log("Oh hello there, " + name);
+	},
+	goodbye: function (name) {
+		console.log("See you later " + name);
+	},
+	whoAreYou: function(name) {
+		console.log("Oh right! " + name + " how could I forget");
+	}
+}
+
+greeter.hello("Matt");
+
+greeter.goodbye("Matt");
+
+greeter.whoAreYou("Matt");
