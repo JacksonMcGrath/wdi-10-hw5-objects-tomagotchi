@@ -52,3 +52,15 @@ greeter.hello("Matt");
 greeter.goodbye("Matt");
 
 greeter.whoAreYou("Matt");
+
+let stringCollector = {
+	collection: [],
+	collect: function (str) {
+		let splitter = str.split(" ");
+		let reverse = splitter.reverse();
+		this.collection.push(reverse);
+		console.log(this.collection);
+	}
+}
+
+stringCollector.collect("Hello I hope all is well")
