@@ -14,3 +14,9 @@ more_words.map((str) => {
 	console.log(str.charAt(0));
 })
 
+const arr = [8, 8, 8, 8, 8, 8, 8, 8];
+
+//set a variable to equal the result of the .reduce on arr
+let reducedIt = arr.reduce((prev,cur) => prev + cur);
+
+console.log(reducedIt);
