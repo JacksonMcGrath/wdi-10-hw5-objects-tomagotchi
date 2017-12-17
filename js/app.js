@@ -77,3 +77,19 @@ let atm = {
 		}
 	}
 }
+
+let leonardo = {
+	name: "Leonardo",
+	color: "blue",
+	weapon: "Katana",
+	pizzaEaten: false,
+	eatPizza: function () {
+		if (this.pizzaEaten === false) {
+			console.log("Leonardo is eating pizza.");
+			return this.pizzaEaten = true;
+		} else if (this.pizzaEaten === true) {
+			console.log("Leonardo has already eaten pizza.");
+			return this.pizzaEaten = false;
+		}
+	}
+}
