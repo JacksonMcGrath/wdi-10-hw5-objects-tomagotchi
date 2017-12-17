@@ -8,3 +8,9 @@ words.forEach((str) => {
 	console.log(capitalized);
 });
 
+const more_words = ["Joe", "Overeats", "Eggs"];
+
+more_words.map((str) => {
+	console.log(str.charAt(0));
+})
+
