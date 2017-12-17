@@ -86,10 +86,22 @@ let leonardo = {
 	eatPizza: function () {
 		if (this.pizzaEaten === false) {
 			console.log("Leonardo is eating pizza.");
-			return this.pizzaEaten = true;
+			this.pizzaEaten = true;
 		} else if (this.pizzaEaten === true) {
 			console.log("Leonardo has already eaten pizza.");
-			return this.pizzaEaten = false;
+			this.pizzaEaten = false;
 		}
+	}
+}
+
+let calculator = {
+	output: 0,
+	multiply: function (a,b) {
+		this.output = a * b; 
+		console.log(this.output);
+	},
+	divide: function (x,y) {
+		this.output = x/y;
+		console.log(this.output);
 	}
 }
