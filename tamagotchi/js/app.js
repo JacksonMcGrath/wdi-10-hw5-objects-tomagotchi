@@ -10,4 +10,7 @@ let tamagotchi1 = {
   	puke: function () {
   		console.log("Blaaaauuugh!");
   	},
+  	yawn: function () {
+  		console.log("Yaaaaaaawn");
+  	},
 }
