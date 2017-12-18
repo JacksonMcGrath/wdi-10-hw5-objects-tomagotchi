@@ -60,5 +60,10 @@ let player = {
   		console.log("You also just fed " + tamagotchi2.name);
 		tamagotchi2.foodInTummy += 1;
   		console.log(tamagotchi2.name + "'s foodInTummy is now " + tamagotchi2.foodInTummy);
-	}
+	},
+	medicateTamagotchi: function (gotchi) {
+		console.log("You just medicated " + gotchi.name);
+		gotchi.health += 1;
+  		console.log(gotchi.name + "'s health is now " + gotchi.health);
+	},
 }
