@@ -66,4 +66,10 @@ let player = {
 		gotchi.health += 1;
   		console.log(gotchi.name + "'s health is now " + gotchi.health);
 	},
+	knockOutTamagotchi: function (gotchi) {
+		console.log("You just knocked out " + gotchi.name);
+		console.log("zzzzzzzzzzzzzzzz");
+		gotchi.restedness += 1;
+  		console.log(gotchi.name + "'s restedness is now " + gotchi.restedness);
+	},
 }
