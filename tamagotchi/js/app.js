@@ -52,5 +52,13 @@ let player = {
 	name: "Jackson",
 	sayName: function () {
 		console.log("Hello, my name is " + this.name);
+	},
+	feedTamagotchi: function () {
+		console.log("You just fed " + tamagotchi1.name);
+		tamagotchi1.foodInTummy += 1;
+  		console.log(tamagotchi1.name + "'s foodInTummy is now " + tamagotchi1.foodInTummy);
+  		console.log("You also just fed " + tamagotchi2.name);
+		tamagotchi2.foodInTummy += 1;
+  		console.log(tamagotchi2.name + "'s foodInTummy is now " + tamagotchi2.foodInTummy);
 	}
 }
