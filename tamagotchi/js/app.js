@@ -14,7 +14,7 @@ let tamagotchi1 = {
   		this.foodInTummy -= 1;
   		console.log(this.name + "'s foodInTummy is now " + this.foodInTummy);
   		this.health -= 1;
-  		console.log("and " this.name + "'s health is now " + this.health);
+  		console.log("and " + this.name + "'s health is now " + this.health);
   	},
   	yawn: function () {
   		console.log(this.name + " let out a yawn... Yaaaaaaawn");
@@ -39,11 +39,18 @@ let tamagotchi2 = {
   		this.foodInTummy -= 1;
   		console.log(this.name + "'s foodInTummy is now " + this.foodInTummy);
   		this.health -= 1;
-  		console.log("and " this.name + "'s health is now " + this.health);
+  		console.log("and " + this.name + "'s health is now " + this.health);
   	},
   	yawn: function () {
   		console.log(this.name + " let out a yawn... Yaaaaaaawn");
   		this.restedness -= 1;
   		console.log(this.name + "'s restedness is now " + this.restedness);
   	},
+}
+
+let player = {
+	name: "Jackson",
+	sayName: function () {
+		console.log("Hello, my name is " + this.name);
+	}
 }
