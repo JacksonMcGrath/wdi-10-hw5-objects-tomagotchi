@@ -42,10 +42,11 @@ const sheepShearers = [
 
 // access all the sheepCount values and add them up
 
-for (let i = 0; i < sheepShearers.length; i++) {
-	//set variable to hold the sheepCount values
-	let count = 0;
-	count = count + sheepShearers[i].sheepCount;
-	// count.push(sheepShearers[i].sheepCount);
-	console.log(count);
-}
+// for (let i = 0; i < sheepShearers.length; i++) {
+// 	//set variable to hold the sheepCount values
+// 	let count = 0;
+// 	count = count +sheepShearers[i].sheepCount;
+// 	// count.push(sheepShearers[i].sheepCount);
+// 	console.log(count);
+// }
+
