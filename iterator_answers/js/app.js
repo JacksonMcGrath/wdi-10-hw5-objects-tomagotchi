@@ -20,3 +20,32 @@ const arr = [8, 8, 8, 8, 8, 8, 8, 8];
 let reducedIt = arr.reduce((prev,cur) => prev + cur);
 
 console.log(reducedIt);
+
+
+const sheepShearers = [
+    {
+        name: "Tim",
+        age: 20,
+        sheepCount: 18
+    },
+    {
+        name: "C3PO",
+        age: 200,
+        sheepCount: 320
+    },
+    {
+        name: "Cousin It",
+        age: Infinity,
+        sheepCount: 2900
+    }
+];
+
+// access all the sheepCount values and add them up
+
+for (let i = 0; i < sheepShearers.length; i++) {
+	//set variable to hold the sheepCount values
+	let count = 0;
+	count = count + sheepShearers[i].sheepCount;
+	// count.push(sheepShearers[i].sheepCount);
+	console.log(count);
+}
