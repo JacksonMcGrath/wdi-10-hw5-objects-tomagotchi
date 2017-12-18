@@ -7,4 +7,7 @@ let tamagotchi1 = {
   	cry: function () {
   		console.log("Waaaaa");
   	},
+  	puke: function () {
+  		console.log("Blaaaauuugh!");
+  	},
 }
